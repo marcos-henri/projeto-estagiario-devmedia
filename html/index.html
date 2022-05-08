@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header id="header">
+        <section id="header-head">
+            <i class="fa-solid fa-location-dot" id="header-i-location"></i>
+            <h1 id="header-logo">Logo</h1>
+            <i class="fa-solid fa-magnifying-glass" id="header-i-search"></i>
+        </section>
+        <nav id="header-nav">
+            <a href="#" id="header-nav-flight">
+                <div>
+                    <i class="fa-solid fa-plane-departure"></i>
+                    <p>Flight</p>
+                </div>
+            </a>
+            <a href="#" id="header-nav-hotel">
+                <div>
+                    <i class="fa-solid fa-bed"></i>
+                    <p>Hotel</p>
+                </div>
+            </a>
+            <a href="#" id="header-nav-rental">
+                <div>
+                    <i class="fa-solid fa-car"></i>
+                    <p>Rental</p>
+                </div>
+            </a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1 id="hero-title">Travel the world with us</h1>
+        <form action="#" id="hero-form">
+            <p id="hero-fomr-from">From</p>
+            <input type="search" name="from" id="hero-form-input-from" class="hero-form-input-txt" placeholder="Departing From">
+            <p id="hero-form-to">To</p>
+            <input type="search" name="to" id="hero-form-input-to" class="hero-form-input-txt" placeholder="Arriving At">
+            <input type="submit" value="Search and find dates"
+            id="hero-form-btn">
+        </form>
+    </section>
+
+    <main>
+        <section id="products">
+            <h1 id="products-title">Good Offers Right Now</h1>
+            <h2 id="products-subtitle">Up to <strong>50%</strong> discount.</h2>
+            <div id="products-discount">
+                <a href="#" id="cinque-terre">
+                    <p id="cinque-terre-p">CInque Terre</p>
+                    <img src="../imagens/cinqueterre.jpg" id="cinque-terre-img"class="products-discount-img" alt="Cinque Terre">
+                </a>
+                <a href="#" id="new-york">
+                    <p id="new-york-p">New York</p>
+                    <img src="../imagens/newyork.jpg" class="products-discount-img" id="new-york-img" alt="New York">
+                </a>
+                <a href="#" id="san-francisco">
+                    <p id="san-francisco-p">San Francisco</p>
+                    <img src="../imagens/sanfran.jpg" class="products-discount-img" id="san-francisco-img" alt="San Francisco">
+                </a>
+                <a href="#" id="pisa">
+                    <p id="pisa-p">Pisa</p>
+                    <img src="../imagens/pisa.jpg" class="products-discount-img" id="pisa-img" alt="Pisa">
+                </a>
+                <a href="#" id="paris">
+                    <p id="paris-p">Paris</p>
+                    <img src="../imagens/paris.jpg" class="products-discount-img" id="paris-img" alt="Paris">
+                </a>
+            </div>
+            <div id="nature">
+                <h2 id="nature-title">Explore Nature</h2>
+                <p id="nature-subtitle">Travel with us and see nature at its finest</p>
+                <div class="nature-product" id="nature-norway">
+                    <img src="../imagens/ocean.jpg" id="nature-norway-img" alt="West Coast, Norway">
+                    <div id="nature-txt">
+                        <h1 id="nature-norway-title">West Coast, Norway</h1>
+                        <p class="nature-price" id="nature-norway-price">Roundtrip from $79</p>
+                        <p class="nature-cc" id="nature-norway-txt">Praesent tincidunt sed tellus ut retrum sed vitae justo.</p>
+                    </div>
+                    <a href="#" id="nature-norway-btn">Buy Tickets</a>
+                </div>
+                <div class="nature-product" id="nature-australia">
+                    <img src="../imagens/mountains.jpg" alt="Mountains, Australia">
+                    <div id="nature-txt">
+                        <h1>Mountains, Australia</h1>
+                        <p class="nature-price">One-way from $39</p>
+                        <p class="nature-cc">Praesent tincidunt sed tellus ut retrum sed vitae justo.</p>
+                    </div>
+                    <a href="#">Buy Tickets</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter">
+            <h1 id="newsletter-title">Get the best offers first!</h1>
+            <p id="newsletter-p">Join our newsletter.</p>
+            <p id="newsletter-p2">E-mail</p>
+            <input type="email" name="email" id="newsletter-input-email" placeholder="Your Email address">
+            <input type="button" value="Subscribe" id="newsletter-input-btn">
+        </section>
+
+        <section id="contact">
+            <h1 id="contact-title">Contact</h1>
+            <p id="contact-subtitle">Let us book your next trip!</p>
+            <div id="contact-address">
+                <i class="fa-solid fa-location-dot"></i>
+                <p id="contact-adderss-local">Chicago, US</p>
+            </div>
+            <div id="contact-phone">
+                <i class="fa-solid fa-phone"></i>
+                <p id="contact-number">Phone: *00 151515</p>
+            </div>
+            <div id="contact-email">
+                <i class="fa-solid fa-envelope"></i>
+                <p id="contact-address-email">Email: mail@mail.com</p>
+            </div>
+
+            <form action="#" id="contact-form">
+                <input type="text" name="name" class="contact-inputs" id="contact-form-name" placeholder="Name">
+                <input type="email" name="" class="contact-inputs" id="contact-form-email" placeholder="Email">
+                <input type="text" name="" class="contact-inputs" id="contact-form-message" placeholder="Message">
+                <input type="button" value="SEND MESSAGE" id="contact-form-btn">
+            </form>
+        </section>
+    </main>
+
+        
+    <footer>
+        <h1 id="footer-title">Find Us On</h1>
+        <i class="fa-brands fa-facebook-square"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-snapchat"></i>
+        <i class="fa-brands fa-pinterest"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a7269a986b.js" crossorigin="anonymous"></script>
+</body>
+</html>
