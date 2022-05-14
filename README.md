@@ -1,2 +1,2 @@
 # projeto-estagiario-devmedia
- Projeto de treino de flexbox
+ Este projeto tem o intuito de treinar minhas habilidades em HTML e CSS. Porém, as propriedades principais a serem testadas neste projeto são: Flexbox e Grid.
