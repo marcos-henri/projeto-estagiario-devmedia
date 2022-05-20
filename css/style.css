@@ -18,7 +18,7 @@
 }
 body{
     font-family: var(--font);
-    width: 100vw;
+    width: 100%;
 }
 main{
     background-color: var(--cor5);
@@ -75,6 +75,9 @@ header{
 }
 
         /* HERO */
+#hero{
+    width: 100%;
+}
 /* NAV */
 #hero-items{
     flex-direction: row;
@@ -297,10 +300,9 @@ footer{
     }
     /* HERO */
     #hero{
-        width: 100%;
         background: url(../imagens/london.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100% 100%;
         display: flex;
         padding: 70px 0;
     }
@@ -364,10 +366,16 @@ footer{
     }
 }
 @media (min-width: 1366px){
+    /* HEADER */
     header{
         justify-content: space-between;
     }
+    /* HERO */
     #hero{
         height: 700px;
+    }
+    /* MAIN */
+    main{
+        padding: 40px 140px 0 140px;
     }
 }
